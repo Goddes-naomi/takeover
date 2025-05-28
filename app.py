@@ -51,8 +51,8 @@ def update_twitter_profile(access_token, access_secret):
 
         # Aggiorna il nome e la bio con un numero casuale
         random_number = random.randint(1000, 9999)
-        new_name = f"DAHLIA-STARVIP {random_number}"
-        new_bio = "I clicked on the SpoilDahlia2D link and now I'm drooling"
+        new_name = f"NAOMI-BOT {random_number}"
+        new_bio = "I clicked on the SpoiNaomi2D and now i'm his puppet"
 
         print(f"🔹 Aggiornando nome: {new_name}")
         api.update_profile(name=new_name)
