@@ -1,0 +1,6 @@
+Flask
+gunicorn
+requests
+requests-oauthlib
+python-dotenv
+tweepy
